@@ -222,15 +222,21 @@ a {
 
 .service {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
   line-height: 2;
   justify-content: center;
   width: calc(100% / 3);
-  padding: 24px;
+  padding: 20px;
 }
 
 .service__para {
   color: #7c8ba1;
   font-weight: 500;
+}
+
+.service__img {
+  border: 2px solid rgb(231, 231, 231);
+  padding: 20px;
+  border-radius: 50%;
 }
