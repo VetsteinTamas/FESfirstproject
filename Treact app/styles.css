@@ -157,16 +157,27 @@ a {
 
 .header__textarea--email {
   padding: 20px;
+  padding-left: 30px;
   border: 2px solid lightgray;
   border-radius: 40px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: rgb(185, 186, 196);
-  width: 90%;
+  width: 80%;
+  transition: border 300ms ease;
+}
+
+.header__textarea--email:hover {
+  border: 2px solid rgb(134, 134, 134);
+}
+
+.header__textarea--companytitle {
+  color: #a0aec0;
 }
 
 .header__textarea--img {
   width: 80%;
+  opacity: 0.5;
 }
 
 .header__textarea--companyarea {
@@ -174,7 +185,7 @@ a {
   margin-top: 50px;
   flex-direction: column;
   gap: 20px;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 /* FEATURES */
