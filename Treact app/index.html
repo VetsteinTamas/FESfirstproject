@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/6fb4e7fc3a.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
     <title>Treact</title>
   </head>
   <body>
@@ -33,6 +34,36 @@
             </li>
             <li class="nav__item nav__signup">Sign up</li>
           </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a class="menu__link" href="#" onclick="closeMenu()">About</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="#" onclick="closeMenu()">Blog</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="" onclick="closeMenu()">Pricing</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="" onclick="closeMenu()"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="" onclick="closeMenu()">Login</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="" onclick="closeMenu()">Sign Up</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <header>
