@@ -818,6 +818,28 @@ footer {
   .title {
     text-align: center;
   }
+
+  .quality__img {
+    width: 80%;
+  }
+
+  .btn {
+    margin-bottom: 40px;
+    width: 50%;
+  }
+
+  .quality__textarea {
+    align-items: center;
+  }
+
+  .header__textarea--companyarea {
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .header__img {
+    width: 80%;
+  }
 }
 
 @media (max-width: 768px) {
