@@ -776,7 +776,7 @@ footer {
 
   .values__textarea {
     padding: 0;
-    width: 60%;
+    width: 80%;
     align-items: center;
   }
 
@@ -792,7 +792,7 @@ footer {
   }
 
   .price {
-    width: 60%;
+    width: 80%;
     margin-bottom: 40px;
   }
 
@@ -809,6 +809,14 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 40px;
+  }
+
+  .header__textarea--email {
+    width: 100%;
+  }
+
+  .title {
+    text-align: center;
   }
 }
 
@@ -834,5 +842,17 @@ footer {
 
   .service__text {
     width: 40%;
+  }
+
+  .header__textarea--title,
+  .main__title,
+  .quality__textarea--title,
+  .step__textarea--title {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .features--para {
+    max-width: 75%;
   }
 }
